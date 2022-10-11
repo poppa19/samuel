@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <section class="header">  
+       <nav>
+          <a href="index.html"><img src="images/logo.png" alt=""></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            </ul>  
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+       <div class="text-box">
+          <h1>World's Biggest University</h1>
+          <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS, <br> Javascript and you are good to go.</p>
+          <a href="" class="hero-btn">visit us to know more</a>
+       </div>
+
+    </section>
+
+    <!------ course ------>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ispu dollor sit amet, consectetur adipiscling elit.</p>
+        
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae porro fugiat labore consectetur officia soluta, veritatis expedita. Ipsum neque omnis hic perspiciatis reiciendis id quas reprehenderit error dolores veniam.</p>
+            </div>
+            <div class="course-col">
+                <h3>intermedia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae porro fugiat labore consectetur officia soluta, veritatis expedita. Ipsum neque omnis hic perspiciatis reiciendis id quas reprehenderit error dolores veniam.</p>
+            </div><div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae porro fugiat labore consectetur officia soluta, veritatis expedita. Ipsum neque omnis hic perspiciatis reiciendis id quas reprehenderit error dolores veniam.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!------- campus ---->
+
+    <section class="campus">
+       <h1>Our Global campus</h1>
+       <p>Lorem ispu dollor sit amet, consectetur adipiscling elit.</p>
+
+       <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+       </div>
+
+    </section>
+
+    <!----- facilies ----->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ispu dollor sit amet, consectetur adipiscling elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class library</h3>
+                <p>Lorem ispu dollor sit amet, consectetur adipiscling elit. pellensteque aliquet turpis nulla.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play ground</h3>
+                <p>Lorem ispu dollor sit amet, consectetur adipiscling elit. pellensteque aliquet turpis nulla.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ispu dollor sit amet, consectetur adipiscling elit. pellensteque aliquet turpis nulla.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!------ testimonials ----->
+
+    <section class="testimonials">
+        <h1>What our student says</h1>
+        <p>Lorem ispu dollor sit amet, consectetur adipiscling elit.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>Lorem ispu dollor sit amet, consectetur adipiscling elit. pellensteque aliquet turpis nulla.</p>
+                    <h3>Christine Berkley</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>Lorem ispu dollor sit amet, consectetur adipiscling elit. pellensteque aliquet turpis nulla.</p>
+                    <h3>David Berkley</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!------javascript for Toggle Menu------>
+    <script>
+
+        var navlinks= document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+
+    </script>
+
+</body>
+</html>
